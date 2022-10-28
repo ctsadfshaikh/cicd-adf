@@ -1,0 +1,13 @@
+{
+	"name": "ls_sql_ctsadfshaikh",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Linked for SQL Database for CTSadfshaikh",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=shoaibsqlserver.database.windows.net;initial catalog=shoaibdatabase;user id=shoaibdb",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDUyMjEwREQ5LUIyQzAtNEY4MC04OEQwLUNBNEI1MkFCMkIyMF9iODVjM2RlYy0xZDU2LTQ0MWQtYWM1Ny1iYzAxOGEyNWVjMTYiDQp9"
+		}
+	}
+}
