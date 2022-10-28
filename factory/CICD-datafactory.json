@@ -1,0 +1,9 @@
+{
+	"name": "CICD-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "231c984d-c32c-4b63-8e35-b2a99efed59f",
+		"tenantId": "271c79d5-6617-45a3-a5ce-d295fe3a5fa7"
+	}
+}
